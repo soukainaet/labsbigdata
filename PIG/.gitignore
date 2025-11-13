@@ -1,0 +1,30 @@
+# Apache PIG - Fichiers à ignorer
+
+# Résultats générés
+output/
+pigout/
+*.log
+
+# Fichiers temporaires
+*.tmp
+temp-*
+pig_*
+
+# Fichiers de debug PIG
+pig*.log
+*.pig.substituted
+
+# Dossiers de compilation
+target/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
